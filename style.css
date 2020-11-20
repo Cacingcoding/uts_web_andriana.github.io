@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Playfair+Display:ital,wght@0,500;1,400;1,500;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Playfair Display', sans-serif;
+}
+header {
+    justify-content: space-between;
+}
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.kiri ul {
+    display: flex;
+}
+
+.kiri ul li {
+    padding: 20px;
+}
+
+header {
+    display: flex;
+}
+
+.tengah img{
+    width: 90px;
+}
+
+.kanan ul {
+    display: flex;
+}
+
+.kanan ul li{
+    padding: 20px;
+}
+
+.tengahkanan img{
+    width: 25px;
+}
+
+.backround{
+    width: 20px;
+}
+
+#dua {
+    background: url(./Asset/homepage.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat 
+}
+.isikanan{
+    margin-left: 900px;
+    width: 400px;
+    height: 80px;
+    padding-top: 190px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.isikanan form input{
+    height: 30px;
+    border-radius: 100px 100px 100px 100px;
+    padding-left: 10px;
+    width: 70%;
+}
+
+.isikanan form button{
+    height: 30px; 
+    border-radius: 100px 100px 100px 100px; 
+    width: 45%;
+    color: white;
+    background-color: red;
+}
