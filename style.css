@@ -130,3 +130,21 @@ header {
     font-size: 30px;
 }
 
+footer{
+    margin-top: 80px;
+    color :black;
+
+}
+
+footer .container .konten{
+    display: flex;
+
+}
+
+footer .container .konten .satu {
+    width: 25%;
+}
+
+footer .container .logo{
+    background-color: black;
+}
