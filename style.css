@@ -57,7 +57,7 @@ header {
     width: 100%;
     height: 800px;
     background-size: cover;
-    background-repeat: no-repeat 
+    background-repeat: no-repeat;
 }
 .isikanan{
     margin-left: 900px;
@@ -83,3 +83,50 @@ header {
     color: white;
     background-color: red;
 }
+
+
+.bawah .isibawah {
+    margin: 100px 0 0 0;
+}
+
+.bawah .isibawah h1 {
+    text-align: center;
+    font-size: 30px; 
+}
+
+.bawah .isibawah p {
+    text-align: center;
+    font-size: 30px; 
+}
+
+.conten .isi-conten {
+    display: flex;
+    margin: 100px 0 0 0;
+    padding: 0 150px;
+}
+
+.conten button {
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+
+#empat {
+    background: url(./Asset/maps-1.svg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.isibagmap{
+    margin-left: 800px;
+    width: 400px;
+    height: 80px;
+    padding-top: 190px;
+    font-size: 30px;
+}
+
