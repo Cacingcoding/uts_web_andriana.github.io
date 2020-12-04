@@ -130,21 +130,75 @@ header {
     font-size: 30px;
 }
 
-footer{
+
+#lima {
     margin-top: 80px;
-    color :black;
+}
+
+#lima .l-konten {
+    display: flex
+}
+
+#lima .l-konten .row {
+    width: 33.3%;
+}
+
+footer{
+    margin-top: 70px;
+    color :white;
 
 }
 
-footer .container .konten{
+footer .konten .lebar{
     display: flex;
 
 }
 
 footer .container .konten .satu {
-    width: 25%;
+    width: 35%;
 }
 
-footer .container .logo{
+footer .logo .lebar {
+    padding: 40px auto;
+    display: flex;
+}
+
+footer .lebar .satu {
+    width: 25%;
+    margin-left: 20px;
+}
+
+footer .logo{
     background-color: black;
+}
+
+.konten{
+    background-color: blueviolet;
+    color: white;
+}
+
+.konten .icon {
+    display: flex;
+}
+
+.konten .icon img{
+    margin-top: 75px;
+    width: 30px;
+    margin-right: 10px;
+
+}
+
+.konten .tombol-bawah {
+    padding: 10px;
+    width: 150px;
+    border-radius: 100px; 
+    border: none;
+    background-color: red; 
+    color: wheat;
+}
+
+footer .footer-bawah {
+    background-color: blue;
+    padding: 10px;
+    padding-left: 20px;
 }
